@@ -1,0 +1,109 @@
+/* ------------------------ General Use Start ---------------------- */
+/* Fonts Start*/
+@font-face {
+    font-family: Montauk-Bold;
+    src: url(/assets/fonts/Montauk-Bold.otf);
+}
+
+@font-face {
+    font-family: Montauk-Italic;
+    src: url(/assets/fonts/Montauk-Italic.otf);
+}
+
+@font-face {
+    font-family: Montauk-Light;
+    src: url(/assets/fonts/Montauk-Light.otf);
+}
+
+@font-face {
+    font-family: Montauk-Regular;
+    src: url(/assets/fonts/Montauk-Regular.otf);
+}
+
+@font-face {
+    font-family: FugazOne-Regular;
+    src: url(/assets/fonts/FugazOne-Regular.ttf);
+}
+/* Fonts End */
+
+/* Text Start */
+h1
+{
+    font-family: FugazOne-Regular;
+    font-size: 50px;
+    color: #5F002B;
+}
+
+h2
+{
+    font-family: FugazOne-Regular;
+    font-size: 30px;
+    color: #5F002B;
+}
+
+h3
+{
+    font-family: FugazOne-Regular;
+    font-size: 20px;
+    color: #5F002B;
+}
+
+p
+{
+    font-family: Montauk-Regular;
+    font-size: 20px;
+    color: #5F002B;
+}
+/* Text End */
+
+/* ------------------------ General Use End ------------------------ */
+
+
+/* ------------------------ Home Start ----------------------------- */
+
+
+
+
+/* ------------------------ Home End -------------------------------- */
+
+
+
+/* ------------------------ About Start ----------------------------- */
+
+
+
+
+/* ------------------------ About End -------------------------------- */
+
+
+
+/* ------------------------ Menu Start ----------------------------- */
+
+
+
+
+/* ------------------------ Menu End -------------------------------- */
+
+
+
+
+/* ------------------------ Catering Start ----------------------------- */
+
+
+
+
+/* ------------------------ Catering End -------------------------------- */
+
+
+
+
+
+
+
+/* --------------------------- Photos Start ----------------------------- */
+
+
+
+
+
+/* -------------------------- Photos End -------------------------------- */
