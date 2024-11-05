@@ -26,11 +26,6 @@
 }
 /* Fonts End */
 
-
-
-
-
-
 /* Text Start */
 h1
 {
@@ -61,8 +56,18 @@ p
 }
 /* Text End */
 
-/* ------------------------ General Use End ------------------------ */
+/* ------------------------ General Use Start ------------------------ */
+body
+{
+    background-image:url(../assets/images/bgtexture.jpg);
+}
 
+.title-bg
+{
+    background-color: white;
+    
+}
+/* ------------------------ General Use End ------------------------ */
 
 /* ------------------------ Home Start ----------------------------- */
 
@@ -83,7 +88,6 @@ p
 
 
 /* ------------------------ Menu Start ----------------------------- */
-
 
 
 
