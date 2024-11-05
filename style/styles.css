@@ -54,8 +54,9 @@ h2
 p
 {
     font-family: Montauk-Regular;
-    font-size: 20px;
+    font-size: 16px;
     color: #5F002B;
+    padding: 0;
 }
 /* Text End */
 
@@ -92,11 +93,10 @@ hr{
     object-fit:cover;
 }
 
-.test
-{
-    flex-direction: row;
-    justify-content: center;
-}
+
+/* ------------------------ Home(index) Start ----------------------------- */
+
+
 .ptSingles
 {
     padding: 4rem;
@@ -113,12 +113,21 @@ hr{
     justify-content: center;
 }
 
-/* ------------------------ Home End -------------------------------- */
+/* ------------------------ Home(index) End -------------------------------- */
 
 
 
 /* ------------------------ About Start ----------------------------- */
 
+.headerPadding{
+    padding: 3rem;
+    padding-right: rem;
+}
+
+.containerWidth
+{
+    width: 950px;
+}
 
 
 
