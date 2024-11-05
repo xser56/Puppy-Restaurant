@@ -63,7 +63,7 @@ a
     text-decoration: none;
 }
 
-.narvBarPadding
+.navBarPadding
 {
     padding: 1rem 0 .5rem 9rem;
 }
@@ -76,6 +76,10 @@ a
     margin: 0%;
 }
 
+.backgroundWhite
+{
+    background-color: white;
+}
 /* ------------------------ General Use End ------------------------ */
 
 
@@ -83,11 +87,6 @@ a
 .ptSingles
 {
     padding: 4rem;
-}
-
-.backgroundWhite
-{
-    background-color: white;
 }
 
 .homeImg
