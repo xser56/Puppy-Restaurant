@@ -1,10 +1,10 @@
 /* ------------------------ General Use Start ---------------------- */
-/* Fonts Start*/
-
 body
 {
     background-image: url(/assets/images/bgtexture.jpg);
 }
+
+/* Fonts Start*/
 @font-face {
     font-family: Montauk-Bold;
     src: url(/assets/fonts/Montauk-Bold.otf);
@@ -46,14 +46,6 @@ h2
     color: #5F002B;
 }
 
-a
-{
-    font-family: FugazOne-Regular;
-    font-size: 20px;
-    color: #5F002B;
-    text-decoration: none;
-}
-
 p
 {
     font-family: Montauk-Regular;
@@ -62,16 +54,52 @@ p
 }
 /* Text End */
 
+/* NavBar Start*/
+a
+{
+    font-family: FugazOne-Regular;
+    font-size: 20px;
+    color: #5F002B;
+    text-decoration: none;
+}
+
+.narvBarPadding
+{
+    padding: 1rem 0 .5rem 9rem;
+}
+
+/* NavBar End*/
+
+.removePadding
+{
+    padding: 0%;
+    margin: 0%;
+}
+
 /* ------------------------ General Use End ------------------------ */
 
 
 /* ------------------------ Home Start ----------------------------- */
 .ptSingles
 {
-    padding-top: 4rem;
+    padding: 4rem;
 }
 
+.backgroundWhite
+{
+    background-color: white;
+}
 
+.homeImg
+{
+    object-fit:cover;
+}
+
+.test
+{
+    flex-direction: row;
+    justify-content: center;
+}
 
 /* ------------------------ Home End -------------------------------- */
 
