@@ -67,6 +67,10 @@ body
     background-color: white;
     
 }
+
+hr{
+    color: #5F002B;
+}
 /* ------------------------ General Use End ------------------------ */
 
 /* ------------------------ Home Start ----------------------------- */
@@ -91,8 +95,15 @@ body
 
 .menu-card-text
 {
+    font-family: Montauk-Light;
     font-weight: lighter;
 }
+
+.menu-info-text
+{
+    font-family: Montauk-Light;
+}
+
 
 
 /* ------------------------ Menu End -------------------------------- */
