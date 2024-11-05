@@ -1,34 +1,88 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="../style/styles.css">
-
-</head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../style/styles.css" />
+  </head>
   <body>
-    
-      <!-- NavBar Start -->
-      <div class="container">
-        <div class="row">
-          <div class="col-8 pt-3">
-            <a class="navbar-brand" href="index.html">
-              <img src="./assets/images/./MuzzlesLogo.png" alt="CompanyLogo" />
-            </a>
-          </div>
-          <div class="tabletResponse col-1 pt-5 justify-content-center"><a href="./pages/about.html"> About </a></div>
-          <div class="col-1 pt-5"><a href="./pages/menu.html"> Menu </a></div>
-          <div class="col-1 pt-5">
-            <a class href="./pages/catering.html"> Catering </a>
-          </div>
-          <div class="col-1 pt-5 ps-4"><a href="./pages/photos.html"> Photo </a></div>
+    <!-- NavBar Start -->
+    <div class="container">
+      <div class="row">
+        <div class="col-8 pt-3">
+          <a class="navbar-brand" href="../index.html">
+            <img src="../assets/images/./MuzzlesLogo.png" alt="CompanyLogo" />
+          </a>
+        </div>
+        <div class="col-1 pt-5"><a href="../pages/about.html"> About </a></div>
+        <div class="col-1 pt-5"><a href="../pages/menu.html"> Menu </a></div>
+        <div class="col-1 pt-5">
+          <a href="../pages/catering.html"> Catering </a>
+        </div>
+        <div class="col-1 pt-5 ps-4"><a href="../pages/photos.html"> Photo </a></div>
+      </div>
+    </div>
+    <!-- NavBar end -->
+
+    <!-- Header Start -->
+    <div class="container caterContainer p-0">
+      <h1 class="cateringBG text-center pt-2 fs-1">
+        Catering
+      </h1>
+    </div>
+    <!-- Header End -->
+
+    <!-- Wide Image Start -->
+
+      <div class="container p-0">    
+        <img class=" img-fluid justify content-center mt-5 pt-3 caterHeroSize" src="../assets/images/cateringHero.jpg" alt="charcuttering board and appetizers">
+      </div>
+
+
+    <!-- Wide Image End -->
+
+    <!-- Services Start -->
+
+    <div class="container mt-5 pt-4 caterContainer">
+      <div class="row">
+        <div class="ps-0 col-xl-5 col-lg-12 col-m-12 tomatoesPadding">
+          <img class="cateringServices tomatoesHeight" src="../assets/images/cateringMaine.jpg" alt="Stuffed tomatoes">
+        </div>
+        <div class="col-xl-7 col-lg-12 col-m-12 cateringHP pt-4 pe-5 ps-5 cateringSpacing">
+          <h1 class="serviceH">Our Catering Services</h1>
+          <p class=" serviceText">Morbi tempus iaculis urna id. Aenean pharetra magna ac placerat. Mi proin sed libero enim sed faucibus turpis in. Et ultrices neque ornare aenean euismod. Quisque sagittis purus sit amet. Ultricies tristique nulla aliquet enim tortor at auctor urna. Purus faucibus ornare suspendisse sed. Tempor nec feugiat nisl pretium fusce id velit ut tortor. Sed cras ornare arcu dui vivamus arcu felis. Consectetur lorem donec massa sapien faucibus et molestie ac. Cum sociis natoque penatibus et magnis dis parturient. Ut faucibus pulvinar elementum integer enim. Vel risus commodo viverra maecenas accumsan. Nec dui nunc mattis enim ut.</p>
+          <p class=" serviceText"> Posuere lorem ipsum dolor sit amet. Sed odio morbi quis commodo odio aenean. Tortor posuere ac ut consequat semper viverra nam libero. Tellus elementum sagittis vitae et leo duis ut. Egestas quis ipsum suspendisse ultrices gravida. Tempor commodo ullamcorper a lacus vestibulum sed arcu non odio. Auctor augue mauris augue neque gravida in fermentum et sollicitudin. Augue neque gravida in fermentum et sollicitudin ac orci phasellus. Tristique senectus et netus et. Dolor sit amet consectetur adipiscing elit ut aliquam. Erat nam at lectus urna duis convallis convallis tellus. Egestas purus viverra accumsan in nisl nisi scelerisque eu ultrices.</p>
         </div>
       </div>
-      <!-- NavBar end -->
+    </div>
 
-    
+    <!-- Services End -->
+
+    <!-- Catering Images Start -->
+
+    <div class="container caterContainer imageSpacing">
+      <div class="row">
+        <div class="ps-0 col-4">
+          <img class="img-fluid" src="../assets/images/catering1.jpg" alt="">
+        </div>
+        <div class="col-4">
+          <img class="img-fluid slidersHeight" src="../assets/images/catering2.jpg" alt="">
+        </div>
+        <div class="pe-0 col-4">
+          <img class="img-fluid" src="../assets/images/catering3.jpg" alt="">
+        </div>
+      </div>
+    </div>
+
+    <!-- Catering Images End -->
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   
 </body>
