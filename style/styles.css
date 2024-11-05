@@ -106,8 +106,11 @@ a
 
 /* ------------------------ About Start ----------------------------- */
 
-
-
+.aboutPadding
+{
+    flex-direction: column;
+    justify-content: center;
+}
 
 /* ------------------------ About End -------------------------------- */
 
