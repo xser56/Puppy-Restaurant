@@ -59,78 +59,22 @@ p
 }
 /* Text End */
 
-/* NavBar Start*/
-a
+/* ------------------------ General Use Start ------------------------ */
+body
 {
-    font-family: FugazOne-Regular;
-    font-size: 20px;
-    color: #5F002B;
-    text-decoration: none;
+    background-image:url(../assets/images/bgtexture.jpg);
 }
 
-.narvBarPadding
-{
-    padding: 1rem 0 .5rem 9rem;
-}
-
-/* NavBar End*/
-
-.removePadding
-{
-    padding: 0%;
-    margin: 0%;
-}
-
-/* NavBar Start*/
-a
-{
-    font-family: FugazOne-Regular;
-    font-size: 20px;
-    color: #5F002B;
-    text-decoration: none;
-}
-
-.narvBarPadding
-{
-    padding: 1rem 0 .5rem 9rem;
-}
-
-/* NavBar End*/
-
-.removePadding
-{
-    padding: 0%;
-    margin: 0%;
-}
-
-/* NavBar Start*/
-a
-{
-    font-family: FugazOne-Regular;
-    font-size: 20px;
-    color: #5F002B;
-    text-decoration: none;
-}
-
-.navBarPadding
-{
-    padding: 1rem 0 .5rem 9rem;
-}
-
-/* NavBar End*/
-
-.removePadding
-{
-    padding: 0%;
-    margin: 0%;
-}
-
-.backgroundWhite
+.title-bg
 {
     background-color: white;
+    
+}
+
+hr{
+    color: #5F002B;
 }
 /* ------------------------ General Use End ------------------------ */
-
 
 /* ------------------------ Home Start ----------------------------- */
 .ptSingles
@@ -184,6 +128,16 @@ a
 
 /* ------------------------ Menu Start ----------------------------- */
 
+.menu-card-text
+{
+    font-family: Montauk-Light;
+    font-weight: lighter;
+}
+
+.menu-info-text
+{
+    font-family: Montauk-Light;
+}
 
 
 
