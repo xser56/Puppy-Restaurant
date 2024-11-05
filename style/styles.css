@@ -106,10 +106,14 @@ a
 
 /* ------------------------ About Start ----------------------------- */
 
-.aboutPadding
+.headerPadding{
+    padding: 3rem;
+    padding-right: rem;
+}
+
+.containerWidth
 {
-    flex-direction: column;
-    justify-content: center;
+    width: 950px;
 }
 
 /* ------------------------ About End -------------------------------- */
