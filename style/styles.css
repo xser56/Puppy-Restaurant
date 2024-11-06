@@ -95,12 +95,10 @@ a
     object-fit:cover;
 }
 
-.test
+.contentPadding
 {
-    flex-direction: row;
-    justify-content: center;
+    padding: 2rem 4rem 3rem 2rem;
 }
-
 /* ------------------------ Home(index) End -------------------------------- */
 
 
