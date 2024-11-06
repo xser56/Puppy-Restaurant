@@ -75,6 +75,11 @@ body
 hr{
     color: #5F002B;
 }
+
+.footer-text{
+    font-family: Montauk-Light;
+    font-size: 20px;
+}
 /* ------------------------ General Use End ------------------------ */
 
 /* ------------------------ Home Start ----------------------------- */
