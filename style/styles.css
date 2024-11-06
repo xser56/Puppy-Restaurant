@@ -4,11 +4,6 @@ body
     background-image: url(/assets/images/bgtexture.jpg);
 }
 
-body
-{
-    background-image: url(/assets/images/bgtexture.jpg);
-}
-
 /* Fonts Start*/
 @font-face {
     font-family: Montauk-Bold;
@@ -50,6 +45,14 @@ h2
     font-size: 30px;
     color: #5F002B;
 }
+
+a{
+    font-family: FugazOne-Regular;
+    font-size: 20px;
+    color: #5F002B;
+    text-decoration: none;
+}
+
 
 p
 {
@@ -93,10 +96,6 @@ hr{
     object-fit:cover;
 }
 
-
-/* ------------------------ Home(index) Start ----------------------------- */
-
-
 .ptSingles
 {
     padding: 4rem;
@@ -111,6 +110,35 @@ hr{
 {
     padding: 2rem 4rem 3rem 2rem;
 }
+
+/* @media screen and (max-width: 768px)
+{
+    .responseTContent
+    {
+        margin: 0rem 1rem;
+        text-align: center; 
+    }
+    .responseTImage
+    {
+        padding: 1rem;
+    }
+} */
+
+/* @media screen and (min-width: 425px)
+{
+    .responsePContent
+    {
+        margin: 0rem 1rem;
+        text-align: center;
+
+    }
+    
+    .resposnePImage
+    {
+        padding: 1rem;
+    }
+} */
+
 /* ------------------------ Home(index) End -------------------------------- */
 
 
