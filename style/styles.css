@@ -170,11 +170,12 @@ hr{
     border-radius: 0%;
   }
 
-  @media screen and (max-width: 768px)
+  @media screen and (max-width: 800px)
 {
-    .aboutResponseImage
+    .imageTablet
     {
         width: 100%;
+        padding: 0rem 1rem 1rem;
     }
     .aboutResponseContent
     {
@@ -182,14 +183,23 @@ hr{
     }
 }
 
-@media screen and (max-width: 425px)
+@media (max-width: 450px)
 {
-    .card-img-top{
-        width:100%;
-        height:auto;
-      }
+    .cardPhone
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+        width: 1000px;
+    }
+   
+    .imagePhone
+    {
+        padding: 0rem 1rem 1rem;
+    }
+
 }
-    
+
 
 /* ------------------------ About End -------------------------------- */
 
