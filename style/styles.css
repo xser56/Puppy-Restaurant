@@ -53,11 +53,10 @@ a{
     text-decoration: none;
 }
 
-
 p
 {
     font-family: Montauk-Regular;
-    font-size: 16px;
+    font-size: 20px;
     color: #5F002B;
     padding: 0;
 }
@@ -96,10 +95,6 @@ hr{
     object-fit:cover;
 }
 
-.ptSingles
-{
-    padding: 4rem;
-}
 
 .homeImg
 {
@@ -111,7 +106,7 @@ hr{
     padding: 2rem 4rem 3rem 2rem;
 }
 
-/* @media screen and (max-width: 768px)
+@media screen and (max-width: 768px)
 {
     .responseTContent
     {
@@ -122,28 +117,43 @@ hr{
     {
         padding: 1rem;
     }
-} */
+} 
 
-/* @media screen and (min-width: 425px)
+@media screen and (max-width: 426px)
 {
     .responsePContent
     {
-        margin: 0rem 1rem;
-        text-align: center;
-
+        padding: 0rem 1rem;
     }
     
+    h1{
+        font-size: 40px;
+    }
+    
+    p
+    {
+        font-size:  20px;
+    }
     .resposnePImage
     {
-        padding: 1rem;
+        display: none
     }
-} */
+    .responsePBurger
+    {
+        width: 500px;
+        padding: 2rem;
+    }
+}
 
 /* ------------------------ Home(index) End -------------------------------- */
 
 
 
 /* ------------------------ About Start ----------------------------- */
+.ptSingles
+{
+    padding-bottom: 1.5rem;
+}
 
 .headerPadding{
     padding: 3rem;
@@ -155,7 +165,31 @@ hr{
     width: 950px;
 }
 
+.card, .card-img-top 
+ {
+    border-radius: 0%;
+  }
 
+  @media screen and (max-width: 768px)
+{
+    .aboutResponseImage
+    {
+        width: 100%;
+    }
+    .aboutResponseContent
+    {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 425px)
+{
+    .card-img-top{
+        width:100%;
+        height:auto;
+      }
+}
+    
 
 /* ------------------------ About End -------------------------------- */
 
