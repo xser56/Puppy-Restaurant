@@ -167,21 +167,8 @@ a {
 
 @media screen and (max-width: 1200px) {
 
-    .tomatoesHeight {
-        height: 80%;
-    }
-
     .cateringSpacing {
         margin-top: -35px;
-    }
-
-    .serviceText {
-        line-height: 20px;
-        font-size: 28px;
-    }
-
-    .serviceH {
-        font-size: 45px;
     }
 
     .caterHeroSize {
@@ -192,13 +179,13 @@ a {
         height: 204.95px;
     }
 
+    .tomatoesHeight {
+        height: 80%;
+    }
+
 }
 
 @media screen and (max-width: 992px) {
-
-    .slidersHeight {
-        height: 151.712px;
-    }
 
     .cateringSpacing {
         margin-top: -60px;
@@ -208,17 +195,21 @@ a {
         padding: 0px;
     }
 
+    .serviceText {
+        line-height: 15px;
+        font-size: 15px;
+    }
+
+    .slidersHeight {
+        height: 151.712px;
+    }
+
     .tomatoesHeight {
         height: 70%;
     }
 
-    .serviceText {
-        line-height: 15px;
-        font-size: 16px;
-    }
-
     .serviceH {
-        font-size: 35px;
+        font-size: 25px;
     }
 
     .imageSpacing {
@@ -227,14 +218,6 @@ a {
 }
 
 @media screen and (max-width: 768px) {
-
-    .tomatoesHeight {
-        height: 223px;
-    }
-
-    .slidersHeight {
-        height: 111.787px;
-    }
 
     .caterHeroSize {
         height: 233.938px;
@@ -245,6 +228,14 @@ a {
         margin-top: 60px;
     }
 
+    .slidersHeight {
+        height: 111.787px;
+    }
+
+    .tomatoesHeight {
+        height: 223px;
+    }
+
 }
 
 @media screen and (max-width: 575px) {
@@ -253,17 +244,17 @@ a {
         max-width: 450px;
     }
 
+    .serviceText {
+        line-height: 11px;
+        font-size: 12px;
+    }
+
     .slidersHeight {
         height: 91.83px;
     }
 
-    .serviceText {
-        line-height: 20px;
-        font-size: 20px;
-    }
-
     .serviceH {
-        font-size: 35px;
+        font-size: 20px;
     }
 }
 
@@ -277,26 +268,26 @@ a {
         margin-top: 30px;
     }
 
-    .slidersHeight {
-        height: 69.64px;
-    }
-
     .caterHeroSize {
         height: 160px;
         margin-bottom: -35px;
+    }
+
+    .serviceText {
+        line-height: 9px;
+        font-size: 11px;
+    }
+
+    .slidersHeight {
+        height: 69.64px;
     }
 
     .tomatoesHeight {
         height: 160px;
     }
 
-    .serviceText {
-        line-height: 20px;
-        font-size: 18px;
-    }
-
     .serviceH {
-        font-size: 30px;
+        font-size: 15px;
     }
 }
 
@@ -306,19 +297,23 @@ a {
         max-width: 250px;
     }
 
-    .slidersHeight {
-        height: 47.46px;
-    }
-
     .caterHeroSize {
         height: 140px;
         margin-bottom: -35px;
+    }
+
+    .slidersHeight {
+        height: 47.46px;
+        width: 104.66px;
     }
 
     .tomatoesHeight {
         height: 140px;
     }
 
+    .imageSpacing{
+        margin-top: 10px;
+    }
 }
 /* ------------------------ Catering End -------------------------------- */
 
@@ -341,80 +336,13 @@ a {
 .photosGrid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
     gap: 20px;
     min-height: 100vh;
 }
 
-.photo1 {
-    grid-column: 1;
-    grid-row: 1;
-    border: 8px solid #FFFFFF;
-}
+.photo-items {
 
-.photo2 {
-    grid-column: 2;
-    grid-row: 1;
-    border: 8px solid #FFFFFF;
-}
-
-.photo3 {
-    grid-column: 3;
-    grid-row: 1;
-    border: 8px solid #FFFFFF;
-}
-
-.photo4 {
-    grid-column: 4;
-    grid-row: 1;
-    border: 8px solid #FFFFFF;
-}
-
-.photo5 {
-    grid-column: 1;
-    grid-row: 2;
-    border: 8px solid #FFFFFF;
-}
-
-.photo6 {
-    grid-column: 2;
-    grid-row: 2;
-    border: 8px solid #FFFFFF;
-}
-
-.photo7 {
-    grid-column: 3;
-    grid-row: 2;
-    border: 8px solid #FFFFFF;
-}
-
-.photo8 {
-    grid-column: 4;
-    grid-row: 2;
-    border: 8px solid #FFFFFF;
-}
-
-.photo9 {
-    grid-column: 1;
-    grid-row: 3;
-    border: 8px solid #FFFFFF;
-}
-
-.photo10 {
-    grid-column: 2;
-    grid-row: 3;
-    border: 8px solid #FFFFFF;
-}
-
-.photo11 {
-    grid-column: 3;
-    grid-row: 3;
-    border: 8px solid #FFFFFF;
-}
-
-.photo12 {
-    grid-column: 4;
-    grid-row: 3;
     border: 8px solid #FFFFFF;
 }
 
@@ -424,168 +352,14 @@ a {
 
 
     .photosGrid {
-        display: grid;
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-        gap: 20px;
-        min-height: 100vh;
-    }
-
-    .photo1 {
-        grid-column: 1;
-        grid-row: 1;
-        border: 8px solid #FFFFFF;
-    }
-
-    .photo2 {
-        grid-column: 2;
-        grid-row: 1;
-        border: 8px solid #FFFFFF;
-    }
-
-    .photo3 {
-        grid-column: 3;
-        grid-row: 1;
-        border: 8px solid #FFFFFF;
-    }
-
-    .photo4 {
-        grid-column: 1;
-        grid-row: 2;
-        border: 8px solid #FFFFFF;
-    }
-
-    .photo5 {
-        grid-column: 2;
-        grid-row: 2;
-        border: 8px solid #FFFFFF;
-    }
-
-    .photo6 {
-        grid-column: 3;
-        grid-row: 2;
-        border: 8px solid #FFFFFF;
-    }
-
-    .photo7 {
-        grid-column: 1;
-        grid-row: 3;
-        border: 8px solid #FFFFFF;
-    }
-
-    .photo8 {
-        grid-column: 2;
-        grid-row: 3;
-        border: 8px solid #FFFFFF;
-    }
-
-    .photo9 {
-        grid-column: 3;
-        grid-row: 3;
-        border: 8px solid #FFFFFF;
-    }
-
-    .photo10 {
-        grid-column: 1;
-        grid-row: 4;
-        border: 8px solid #FFFFFF;
-    }
-
-    .photo11 {
-        grid-column: 2;
-        grid-row: 4;
-        border: 8px solid #FFFFFF;
-    }
-
-    .photo12 {
-        grid-column: 3;
-        grid-row: 4;
-        border: 8px solid #FFFFFF;
     }
 }
 
 @media screen and (max-width: 768px) {
 
-
-
     .photosGrid {
-        display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-        gap: 20px;
-        min-height: 100vh;
-    }
-
-    .photo1 {
-        grid-column: 1;
-        grid-row: 1;
-        border: 8px solid #FFFFFF;
-    }
-
-    .photo2 {
-        grid-column: 2;
-        grid-row: 1;
-        border: 8px solid #FFFFFF;
-    }
-
-    .photo3 {
-        grid-column: 1;
-        grid-row: 2;
-        border: 8px solid #FFFFFF;
-    }
-
-    .photo4 {
-        grid-column: 2;
-        grid-row: 2;
-        border: 8px solid #FFFFFF;
-    }
-
-    .photo5 {
-        grid-column: 1;
-        grid-row: 3;
-        border: 8px solid #FFFFFF;
-    }
-
-    .photo6 {
-        grid-column: 2;
-        grid-row: 3;
-        border: 8px solid #FFFFFF;
-    }
-
-    .photo7 {
-        grid-column: 1;
-        grid-row: 4;
-        border: 8px solid #FFFFFF;
-    }
-
-    .photo8 {
-        grid-column: 2;
-        grid-row: 4;
-        border: 8px solid #FFFFFF;
-    }
-
-    .photo9 {
-        grid-column: 1;
-        grid-row: 5;
-        border: 8px solid #FFFFFF;
-    }
-
-    .photo10 {
-        grid-column: 2;
-        grid-row: 5;
-        border: 8px solid #FFFFFF;
-    }
-
-    .photo11 {
-        grid-column: 1;
-        grid-row: 6;
-        border: 8px solid #FFFFFF;
-    }
-
-    .photo12 {
-        grid-column: 2;
-        grid-row: 6;
-        border: 8px solid #FFFFFF;
     }
 
 }
@@ -601,79 +375,11 @@ a {
 
     .photosGrid {
         display: grid;
-        grid-template-columns: 0px;
-        grid-template-rows: repeat(12, 1fr);
+        grid-template-columns: auto;
         gap: 0px;
         row-gap: 20px;
-        min-height: 100vh;
     }
 
-    .photo1 {
-        grid-column: 2;
-        grid-row: 1;
-        border: 5px solid #FFFFFF;
-    }
-
-    .photo2 {
-        grid-row: 2;
-        border: 5px solid #FFFFFF;
-    }
-
-    .photo3 {
-        grid-column: 2;
-        grid-row: 3;
-        border: 5px solid #FFFFFF;
-    }
-
-    .photo4 {
-        grid-column: 2;
-        grid-row: 4;
-        border: 5px solid #FFFFFF;
-    }
-
-    .photo5 {
-        grid-row: 5;
-        grid-column: 2;
-        border: 5px solid #FFFFFF;
-    }
-
-    .photo6 {
-        grid-row: 6;
-        border: 5px solid #FFFFFF;
-    }
-
-    .photo7 {
-        grid-column: 2;
-        grid-row: 7;
-        border: 5px solid #FFFFFF;
-    }
-
-    .photo8 {
-        grid-row: 8;
-        border: 5px solid #FFFFFF;
-    }
-
-    .photo9 {
-        grid-column: 2;
-        grid-row: 9;
-        border: 5px solid #FFFFFF;
-    }
-
-    .photo10 {
-        grid-row: 10;
-        border: 5px solid #FFFFFF;
-    }
-
-    .photo11 {
-        grid-column: 2;
-        grid-row: 11;
-        border: 5px solid #FFFFFF;
-    }
-
-    .photo12 {
-        grid-row: 12;
-        border: 5px solid #FFFFFF;
-    }
 }
 
 /* -------------------------- Photos End -------------------------------- */
