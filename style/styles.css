@@ -70,6 +70,13 @@ hr{
     color: #5F002B;
 }
 
+.navbar-text
+{
+    font-family: FugazOne-Regular;
+    color: #5F002B;
+    font-size: 24px
+}
+
 .footer-text{
     font-family: Montauk-Light;
     font-size: 20px;
@@ -455,15 +462,12 @@ hr{
 /* Photos Responsiveness */
 
 @media screen and (max-width: 991px) {
-
-
     .photosGrid {
         grid-template-columns: repeat(3, 1fr);
     }
 }
 
 @media screen and (max-width: 768px) {
-
     .photosGrid {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -476,9 +480,9 @@ hr{
         width: auto;
         max-width: 300px;
     }
-
-
-
+    
+}
+@media screen and (max-width: 575px) {
     .photosGrid {
         display: grid;
         grid-template-columns: auto;
