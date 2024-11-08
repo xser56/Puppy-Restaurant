@@ -76,10 +76,23 @@ hr{
     color: #5F002B;
 }
 
+/* NavBar Start */
 .footer-text{
     font-family: Montauk-Light;
     font-size: 20px;
 }
+
+.footer-indexL
+{
+    padding-left: 6rem ;
+}
+
+.footer-indexR
+{
+    padding-right: 3.5rem ;
+}
+
+/* NavBar End */
 /* ------------------------ General Use End ------------------------ */
 
 /* ------------------------ Home Start ----------------------------- */
