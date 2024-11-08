@@ -78,6 +78,11 @@ hr{
     font-size: 24px
 }
 
+.footer-space
+{
+    padding-top: 4rem;
+}
+
 .footer-text{
     font-family: Montauk-Light;
     font-size: 20px;
@@ -92,6 +97,7 @@ hr{
 {
     padding-right: 3.5rem ;
 }
+
 
 /* NavBar End */
 /* ------------------------ General Use End ------------------------ */
