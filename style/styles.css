@@ -55,45 +55,91 @@ p {
 /* Text End */
 
 /* NavBar Start*/
-a
+body
 {
-    font-family: FugazOne-Regular;
-    font-size: 20px;
+    background-image:url(../assets/images/bgtexture.jpg);
+}
+
+.title-bg
+{
+    background-color: white;
+    
+}
+
+hr{
     color: #5F002B;
-    text-decoration: none;
 }
 
-.narvBarPadding
-{
-    padding: 1rem 0 .5rem 9rem;
-}
-
-/* NavBar End*/
-
-.removePadding
-{
-    padding: 0%;
-    margin: 0%;
+.footer-text{
+    font-family: Montauk-Light;
+    font-size: 20px;
 }
 /* ------------------------ General Use End ------------------------ */
 
 /* ------------------------ Home Start ----------------------------- */
-.ptSingles {
+.ptSingles
+{
     padding: 4rem;
 }
 
-.backgroundWhite {
+.backgroundWhite
+{
     background-color: white;
 }
 
-.homeImg {
-    object-fit: cover;
+.homeImg
+{
+    object-fit:cover;
 }
 
-.test
+
+.homeImg
 {
-    flex-direction: row;
-    justify-content: center;
+    object-fit:cover;
+}
+
+.contentPadding
+{
+    padding: 2rem 4rem 3rem 2rem;
+}
+
+@media screen and (max-width: 768px)
+{
+    .responseTContent
+    {
+        margin: 0rem 1rem;
+        text-align: center; 
+    }
+    .responseTImage
+    {
+        padding: 1rem;
+    }
+} 
+
+@media screen and (max-width: 426px)
+{
+    .responsePContent
+    {
+        padding: 0rem 1rem;
+    }
+    
+    h1{
+        font-size: 40px;
+    }
+    
+    p
+    {
+        font-size:  20px;
+    }
+    .resposnePImage
+    {
+        display: none
+    }
+    .responsePBurger
+    {
+        width: 500px;
+        padding: 2rem;
+    }
 }
 
 /* ------------------------ Home(index) End -------------------------------- */
